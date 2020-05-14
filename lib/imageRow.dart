@@ -45,6 +45,10 @@ class imageRow extends StatelessWidget{
     'assets/images/34.png',
     'assets/images/35.png',
     'assets/images/36.png',
+    'assets/images/33.png',
+    'assets/images/34.png',
+    'assets/images/35.png',
+    'assets/images/36.png',
   ];
 
   Widget build(BuildContext context){
