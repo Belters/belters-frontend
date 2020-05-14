@@ -12,8 +12,8 @@ class BackgroundImageGrid extends StatelessWidget {
 
     _createChildren(){
       List<Widget> returnRows = [];
-      for(int i=0;i<numberOfRows+1;i++){
-        returnRows.add(imageRow());
+      for(int rowNumber=0;rowNumber<numberOfRows+1;rowNumber++){
+        returnRows.add(imageRow(rowNumber));
       }
       return returnRows;
     }
