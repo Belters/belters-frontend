@@ -7,7 +7,7 @@ import 'MyApp.dart';
 void main() {
   runApp(MaterialApp(
     title: 'Flutter Tutorial',
-    home: MyApp(),
+    home: BackgroundImageGrid(),
   ));
 }
 
